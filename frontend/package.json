@@ -14,7 +14,8 @@
     "react-router-dom": "^6.20.0",
     "axios": "^1.6.2",
     "date-fns": "^3.0.6",
-    "recharts": "^2.10.1"
+    "recharts": "^2.10.1",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
