@@ -1,15 +1,2 @@
 [build]
 builder = "NIXPACKS"
-
-[deploy]
-startCommand = "npm run db:migrate && npm start"
-restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 3
-
-[[services]]
-name = "taskflow-api"
-source = "backend"
-
-[[services]]
-name = "taskflow-frontend"
-source = "frontend"
